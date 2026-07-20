@@ -9,7 +9,7 @@ app.use(cors()) //cross-origin resouce
 const db = mysql.createConnection({
     host : 'localhost',
     user : 'root',
-    password : 'YusSql@58',
+    password : '',
     database : 'todo'
 
 })
